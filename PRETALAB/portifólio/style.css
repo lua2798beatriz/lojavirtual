@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+li {
+    list-style: none; /*retira as bolinhas*/
+    display: inline;
+    margin: 40px;
+}
+.cabecalho {
+    background-color: #be89cb;
+    height: 103px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end
+}
+.lista-menu li>a {
+    color: #FFFFFF;
+    font-size: 18px;
+    text-decoration:none ;
+}
+.perfil {
+    background-color: antiquewhite;
+    height: 579px;
+    text-align: center;
+}
+.minha-descrição {
+    font-size: 14px;
+    width: 405px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 21px;
+}
+img {
+    margin-top: 48px;
+    margin-bottom: 26px;
+}
+.profissao {
+    font-size: 15px;
+    color: #be89cb;
+}
+.formacao {
+    background-color: #7d4076;
+height: 500px;
+}
